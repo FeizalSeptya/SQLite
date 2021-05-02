@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/edit" android:title="Edit Data Teman"/>
-    <item android:id="@+id/hapus" android:title="Hapus Data Teman"/>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Hapus Data" android:id="@+id/hpsData" />
+    <item android:title="Edit Data" android:id="@+id/edData" />
+
 </menu>
